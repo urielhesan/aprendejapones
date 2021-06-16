@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/contacto.css"/>
+    <link rel="icon" href="../imagenes/lofo_final_web_icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <title>AprendeJapones</title>
+</head>
+<body>
+    <section>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Página Principal</a></li>
+                <li><a href="../html/consejos.html">Consejos</a></li>
+                <li><a href="../html/herramientas.html">Herramientas</a></li>
+                <li><a href="../html/pasos.html">Pasos a Seguir</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <header id="titulo_contacto">
+            <h3>¿Quieres enviarnos un mensaje? ¡Registrate!</h3>
+        </header>
+        <section id="formulario">
+            <form method="post" action="uno.php" name="formatocontacto" enctype="multipart/form-data">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Captura tu nombre" required/><br>
+            <label>Email:</label>
+            <input type="email" name="correo" placeholder="Captura tu correo" required/><br>
+            <label>¡Sube una imagen de tus estudios!</label>
+            <input type="file" name="imagen"/>
+	        <input type="submit" name="subir-imagen" value="Enviar Imagen" />
+            <label id="comentarios" >Comentarios:</label>
+            <textarea name="Comentarios" cols="100" rows="10"></textarea><br>
+            <label>¿Te gustaría recibir nuestras noticias en tu correo electrónico?</label>
+            <input type="radio" name="genero" value="M">Si
+            <input type="radio" name="genero" value="M">No
+            <input type="submit" value="Registrar"><br>
+            </form>
+        </section>
+            <footer id="pie_de_pagina">
+                <p>Buscanos en: contacto@aprendejapones.org.mx</p>
+                <p id="redessociales">Nuestras Redes Sociales&nbsp&nbsp&nbsp<img src="../imagenes/redessociales.png" alt="redessociales" id="img_redessociales"></p>
+            </footer>
+            <div id="reproductordeaudio">
+                <audio controls autoplay loop >
+                <source src="../sonido/The Cherry Blossoms (Sakura Sakura).ogg">
+                </audio>
+            </div>
+    </section>
+</body>

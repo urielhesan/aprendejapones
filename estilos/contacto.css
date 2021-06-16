@@ -1,0 +1,100 @@
+html,body{
+    width:98.3%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+}
+body{
+    background-color: black;
+}
+#menu{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px;
+}
+#logo_nav{
+    width: 10%;
+    float: left;
+}
+#menu ul{
+    width: 99.5%;
+    background-color:white;
+    border: solid 5px red;
+    list-style: none;
+    font: bold 1em verdana,sans-serif;
+}
+#menu ul li{
+    display: inline-block;
+    line-height: 1em;
+}
+#menu ul li,a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+#menu ul li a:hover{
+    color: red;
+}
+#titulo_contacto{
+    display: inline-block;
+    position: absolute;
+    top: 11.5%;
+    left: 36%;
+    height: 35px;
+    background-color: white;
+    border: solid 5px red;
+    padding: 0px 5px;
+    line-height: 5%;
+}
+#formulario{
+    position: absolute;
+    top: 18.3%;
+    left: 4%;
+    width: 90%;
+    height: 23.5rem;
+    margin: 5px;
+    background-color: white;
+    border: solid 5px red;
+    box-shadow: 3px 3px 3px #D4AF37;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+#comentarios{
+    position: absolute;
+    top: 40%;
+    right: 80%;
+}
+#reproductordeaudio{
+    position: absolute;
+    bottom: 0.3%;
+    left: 39%;
+}
+#pie_de_pagina{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 65px;
+    background-color: white;
+    border: solid 5px red;
+    columns: 2;
+    margin: 0px 2px;
+}
+#pie_de_pagina p{
+    padding: 1px 5px;
+}
+#redessociales{
+    float: right;
+}
+#img_redessociales{
+    float: right;
+}
+#pie_de_pagina p:hover{
+    color: red;
+}
+#redessociales:hover{
+    color: red;
+}

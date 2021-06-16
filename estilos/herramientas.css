@@ -1,0 +1,202 @@
+html,body{
+    width:98.3%;
+    height:141.3%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+}
+body{
+    background-color: black;
+}
+#menu{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px;
+}
+#logo_nav{
+    width: 10%;
+    float: left;
+}
+#menu ul{
+    width: 99.5%;
+    background-color:white;
+    border: solid 5px red;
+    list-style: none;
+    font: bold 1em verdana,sans-serif;
+}
+#menu ul li{
+    display: inline-block;
+    line-height: 1em;
+}
+#menu ul li,a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+#menu ul li a:hover{
+    color: red;
+}
+#block_herramientas{
+    display: inline-block;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    background-image: url("../imagenes/fondo_nubes.png");
+    width: 99%;
+    height: 18rem;
+    z-index: -100;
+    border: solid 5px #D4AF37;
+}
+#img_herramientas{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#titulo1{
+    display: inline-block;
+    position: absolute;
+    top: 58%;
+    left: 37%;
+    height: 35px;
+    background-color: white;
+    border: solid 5px red;
+    padding: 0px 5px;
+    line-height: 5%;
+}
+#textoMNN{
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    background-color: white;
+    border: solid 5px red;
+    width: 30%;
+    height: 33%;
+    padding: 0px 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+#textoJV{
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    left: 32%;
+    background-color: white;
+    border: solid 5px red;
+    width: 34.5%;
+    height: 33%;
+    padding: 0px 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+#textoJMIL{
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    left: 68.5%;
+    background-color: white;
+    border: solid 5px red;
+    width: 30%;
+    height: 33%;
+    padding: 0px 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+#block_herramientas2{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-image: url("../imagenes/fondo_nubes.png");
+    width: 99%;
+    height: 18rem;
+    z-index: -100;
+    border: solid 5px #D4AF37;
+}
+#img_herramientas2{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+#titulo2{
+    display: inline-block;
+    position: absolute;
+    top: 146%;
+    left: 37%;
+    height: 35px;
+    background-color: white;
+    border: solid 5px red;
+    padding: 0px 5px;
+    line-height: 5%;
+}
+#texto_jisho{
+    display: inline-block;
+    position: absolute;
+    top: 153%;
+    background-color: white;
+    border: solid 5px red;
+    width: 49%;
+    height: 33%;
+    padding: 0px 5px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 5px;
+}
+#img_jisho{
+    float: right;
+    width: 25%;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#textorde{
+    display: inline-block;
+    position: absolute;
+    top: 153%;
+    left: 51%;
+    background-color: white;
+    border: solid 5px red;
+    width: 47.3%;
+    height: 33%;
+    padding: 0px 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+#img_retoerin{
+    float: right;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#reproductordeaudio{
+    position: absolute;
+    top: 189%;
+    left: 39%;
+}
+#pie_de_pagina{
+    position: absolute;
+    top: 188%;
+    width: 99%;
+    height: 65px;
+    background-color: white;
+    border: solid 5px red;
+    columns: 2;
+    margin: 0px 2px;
+}
+#pie_de_pagina p{
+    padding: 1px 5px;
+}
+#redessociales{
+    float: right;
+}
+#img_redessociales{
+    float: right;
+}
+#pie_de_pagina p:hover{
+    color: red;
+}
+#redessociales:hover{
+    color: red;
+}

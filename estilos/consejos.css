@@ -1,0 +1,98 @@
+html,body{
+    width:98.3%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+}
+body{
+    background-color: black;
+}
+#menu{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px;
+}
+#logo_nav{
+    width: 10%;
+    float: left;
+}
+#menu ul{
+    width: 99.5%;
+    background-color:white;
+    border: solid 5px red;
+    list-style: none;
+    font: bold 1em verdana,sans-serif;
+}
+#menu ul li{
+    display: inline-block;
+    line-height: 1em;
+}
+#menu ul li,a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+#menu ul li a:hover{
+    color: red;
+}
+section{
+    display: inline-block;
+}
+#bloque_texto{
+    background-color: white;
+    border: solid 5px red;
+    width: 60%;
+    height: 485px;
+    color: black;
+    font-size: 17.5px;
+    margin: 0px 2px;
+    padding: 0px 10px;
+    text-align: justify;
+}
+#aside{
+    display: inline-block;
+    position: absolute;
+    top: 13.3%;
+    right: 0;
+    width: 38.7%;
+    height: 73.7%;
+    margin: 0px 3px;
+    background-image: url(../imagenes/fondo_nubes.png);
+    border: solid 5px #D4AF37;
+}
+#img_aside{
+    width: 100%;
+}
+#reproductordeaudio{
+    position: absolute;
+    bottom: 0.3%;
+    left: 39%;
+}
+#pie_de_pagina{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 65px;
+    background-color: white;
+    border: solid 5px red;
+    columns: 2;
+    margin: 0px 2px;
+}
+#pie_de_pagina p{
+    padding: 1px 5px;
+}
+#redessociales{
+    float: right;
+}
+#img_redessociales{
+    float: right;
+}
+#pie_de_pagina p:hover{
+    color: red;
+}
+#redessociales:hover{
+    color: red;
+}

@@ -1,0 +1,111 @@
+html,body{
+    width:98.3%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+}
+body{
+    background-color: black;
+}
+#menu{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px;
+}
+#logo_nav{
+    width: 10%;
+    float: left;
+}
+#menu ul{
+    width: 99.5%;
+    background-color:white;
+    border: solid 5px red;
+    list-style: none;
+    font: bold 1em verdana,sans-serif;
+}
+#menu ul li{
+    display: inline-block;
+    line-height: 1em;
+}
+#menu ul li,a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+#menu ul li a:hover{
+    color: red;
+}
+#video_fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 5% 15%;
+}
+#img_logo{
+    display: inline-block;
+    position: absolute;
+    top: 10.5%;
+    left: 15%;
+    width: 15%;
+    z-index: 100;
+}
+#texto_titulo{
+    display: inline-block;
+    position: absolute;
+    top: 10.5%;
+    left: 53.5%;
+    width: 30%;
+    margin-right: 14%;
+    text-align: center;
+    background-color: hsla(0,100%,50%,.5);
+    color: white;
+}
+#texto_video{
+    display: inline-block;
+    position: absolute;
+    top: 54%;
+    left: 53.5%;
+    width: 30%;
+    text-align: center;
+    background-color: hsla(0,100%,50%,.5);
+    color: white;
+    font-size: 20px;
+}
+#reproductordeaudio{
+    position: absolute;
+    bottom: 0.3%;
+    left: 39%;
+}
+#pie_de_pagina{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 65px;
+    background-color: white;
+    border: solid 5px red;
+    columns: 2;
+    margin: 0px 2px;
+}
+#pie_de_pagina p{
+    padding: 1px 5px;
+}
+#redessociales{
+    float: right;
+}
+#img_redessociales{
+    float: right;
+}
+#pie_de_pagina p:hover{
+    color: red;
+}
+#redessociales:hover{
+    color: red;
+}
